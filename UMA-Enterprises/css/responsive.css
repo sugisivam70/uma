@@ -1,0 +1,53 @@
+/* ==========================================================================
+   UMA ENTERPRISES — Responsive Breakpoints
+   ========================================================================== */
+@media (max-width: 1140px) {
+  .nav-links { display: none; }
+  .nav-toggle { display: inline-flex; }
+  .hero-vse-content,
+  .page-hero-grid,
+  .sticky-split,
+  .split-grid {
+    grid-template-columns: 1fr;
+  }
+  .sticky-col { position: static; }
+  .catalog-grid { grid-template-columns: repeat(2, 1fr); }
+  .masonry-grid { columns: 2; }
+  .footer-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .hero-spotlight-card { max-width: 520px; }
+}
+
+@media (max-width: 768px) {
+  .span-3, .span-4, .span-5, .span-6, .span-7, .span-8 {
+    grid-column: span 12;
+  }
+  .catalog-grid,
+  .form-grid,
+  .footer-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .masonry-grid { columns: 1; }
+  .form-field.full { grid-column: span 1; }
+  .stat-item {
+    border-left: none;
+    border-top: 2px solid var(--line-dark);
+    padding: 1.5rem 0;
+  }
+  .nav-actions .btn { display: none; }
+  .h-card { width: 310px; }
+  .hero-vse {
+    padding-top: 7.5rem;
+    padding-bottom: 4.5rem;
+  }
+  .hero-vse-headline {
+    font-size: 2.35rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-name span { display: none; }
+  .hero-vse-actions .btn { width: 100%; }
+  .hero-spotlight-card { padding: 1.4rem; }
+}

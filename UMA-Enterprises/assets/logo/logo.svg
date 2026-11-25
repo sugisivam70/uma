@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" aria-label="UMA Enterprises Logo">
+  <defs>
+    <linearGradient id="umaSun" x1="100" y1="30" x2="100" y2="165" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFEE00"/>
+      <stop offset="55%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#FF1E00"/>
+    </linearGradient>
+  </defs>
+  <circle cx="96" cy="98" r="64" fill="url(#umaSun)"/>
+  <path d="M12 96 C26 90, 38 112, 54 114 C78 116, 134 74, 192 56 C152 80, 96 128, 52 132 C34 134, 22 108, 12 96 Z" fill="#0B6698"/>
+</svg>

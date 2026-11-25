@@ -1,0 +1,29 @@
+/* ==========================================================================
+   UMA ENTERPRISES — Motion & Reveal Utilities
+   ========================================================================== */
+.reveal-up,
+.reveal-left,
+.reveal-scale,
+.stagger-item {
+  will-change: transform, opacity;
+}
+
+.clip-reveal {
+  clip-path: inset(0 0 0 0);
+  will-change: clip-path, transform;
+}
+
+.magnetic {
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track,
+  .scroll-line::after {
+    animation: none !important;
+  }
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
